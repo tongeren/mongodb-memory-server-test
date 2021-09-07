@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "dependencies": {
+    "jest": "^27.1.0",
+    "mongoose": "^6.0.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 20000 
+  }
+}
